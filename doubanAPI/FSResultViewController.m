@@ -9,7 +9,7 @@
 #import "FSResultViewController.h"
 #import "FSNavigationController.h"
 #import "UIImageView+WebCache.h"
-
+#import "FSDetailsViewController.h"
 
 @interface FSResultCell ()
 
@@ -26,6 +26,9 @@
 
 
 @interface FSResultViewController ()
+
+@property (nonatomic, strong) NSDictionary *passResultDictionary;
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end
 
@@ -44,6 +47,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [self.tableView deselectRowAtIndexPath:[self.tableView indexPathForSelectedRow] animated:YES];
 }
 
 - (void)didReceiveMemoryWarning
@@ -143,12 +152,32 @@
 
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return NO; //which one can be edited
+    return NO; 
 }
 
 #pragma mark - Table view delegate
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    switch (indexPath.section) {
+        case 0: //books
+            self.passResultDictionary = self.bookResultArray[indexPath.row];
+            [self performSegueWithIdentifier:@"bookDetailsSegue" sender:self];
+            break;
+        case 1: //movies
+            break;
+        case 2: //musics
+            break;
+        default:
+            break;
+    }
+}
+
+#pragma mark - segues
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    FSDetailsViewController *viewController = segue.destinationViewController;
+    viewController.title = self.passResultDictionary[@"title"];
+    viewController.detailData = self.passResultDictionary;
 }
 
 @end

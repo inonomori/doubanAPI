@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6871997E17AFFE4900382CDD /* FSBookDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6871997D17AFFE4900382CDD /* FSBookDetailsViewController.m */; };
+		6871998117B000F800382CDD /* FSDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6871998017B000F800382CDD /* FSDetailsViewController.m */; };
+		6871998517B0662200382CDD /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 6871998417B0662200382CDD /* HMSegmentedControl.m */; };
+		6871998D17B07C3B00382CDD /* RTWSShangGoG0v1-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6871998A17B07C3B00382CDD /* RTWSShangGoG0v1-Bold.otf */; };
+		6871998E17B07C3B00382CDD /* RTWSShangGoG0v1-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6871998B17B07C3B00382CDD /* RTWSShangGoG0v1-Regular.otf */; };
+		6871998F17B07C3B00382CDD /* RTWSShangYaG0v1-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6871998C17B07C3B00382CDD /* RTWSShangYaG0v1-Regular.otf */; };
+		6871999217B0869200382CDD /* stars.png in Resources */ = {isa = PBXBuildFile; fileRef = 6871999017B0869200382CDD /* stars.png */; };
+		6871999317B0869200382CDD /* stars@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6871999117B0869200382CDD /* stars@2x.png */; };
+		6871999617B0891B00382CDD /* FSStarCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6871999517B0891B00382CDD /* FSStarCoverView.m */; };
 		68E158E017AFA39C00558048 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E158DF17AFA39C00558048 /* UIKit.framework */; };
 		68E158E217AFA39C00558048 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E158E117AFA39C00558048 /* Foundation.framework */; };
 		68E158E417AFA39C00558048 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E158E317AFA39C00558048 /* CoreGraphics.framework */; };
@@ -31,7 +40,6 @@
 		68E1592B17AFA76200558048 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E1591D17AFA76200558048 /* AFURLConnectionOperation.m */; };
 		68E1592C17AFA76200558048 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E1591F17AFA76200558048 /* AFXMLRequestOperation.m */; };
 		68E1592D17AFA76200558048 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E1592117AFA76200558048 /* UIImageView+AFNetworking.m */; };
-		68E1592E17AFA76200558048 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E1592417AFA76200558048 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		68E1593117AFA80B00558048 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E1592F17AFA80100558048 /* QuartzCore.framework */; };
 		68E1594117AFAAA200558048 /* FSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E1593D17AFAAA200558048 /* FSNavigationController.m */; };
 		68E1594217AFAAA200558048 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E1594017AFAAA200558048 /* MBProgressHUD.m */; };
@@ -60,6 +68,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6871997C17AFFE4900382CDD /* FSBookDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBookDetailsViewController.h; sourceTree = "<group>"; };
+		6871997D17AFFE4900382CDD /* FSBookDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBookDetailsViewController.m; sourceTree = "<group>"; };
+		6871997F17B000F800382CDD /* FSDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSDetailsViewController.h; sourceTree = "<group>"; };
+		6871998017B000F800382CDD /* FSDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSDetailsViewController.m; sourceTree = "<group>"; };
+		6871998317B0662200382CDD /* HMSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSegmentedControl.h; sourceTree = "<group>"; };
+		6871998417B0662200382CDD /* HMSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSegmentedControl.m; sourceTree = "<group>"; };
+		6871998A17B07C3B00382CDD /* RTWSShangGoG0v1-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RTWSShangGoG0v1-Bold.otf"; path = "doubanAPI/Resources/fonts/RTWSShangGoG0v1-Bold.otf"; sourceTree = "<group>"; };
+		6871998B17B07C3B00382CDD /* RTWSShangGoG0v1-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RTWSShangGoG0v1-Regular.otf"; path = "doubanAPI/Resources/fonts/RTWSShangGoG0v1-Regular.otf"; sourceTree = "<group>"; };
+		6871998C17B07C3B00382CDD /* RTWSShangYaG0v1-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RTWSShangYaG0v1-Regular.otf"; path = "doubanAPI/Resources/fonts/RTWSShangYaG0v1-Regular.otf"; sourceTree = "<group>"; };
+		6871999017B0869200382CDD /* stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stars.png; path = doubanAPI/Resources/stars.png; sourceTree = "<group>"; };
+		6871999117B0869200382CDD /* stars@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "stars@2x.png"; path = "doubanAPI/Resources/stars@2x.png"; sourceTree = "<group>"; };
+		6871999417B0891B00382CDD /* FSStarCoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSStarCoverView.h; sourceTree = "<group>"; };
+		6871999517B0891B00382CDD /* FSStarCoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSStarCoverView.m; sourceTree = "<group>"; };
 		68E158DC17AFA39C00558048 /* doubanAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = doubanAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68E158DF17AFA39C00558048 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		68E158E117AFA39C00558048 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -101,8 +122,6 @@
 		68E1591F17AFA76200558048 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
 		68E1592017AFA76200558048 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		68E1592117AFA76200558048 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
-		68E1592317AFA76200558048 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
-		68E1592417AFA76200558048 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 		68E1592F17AFA80100558048 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		68E1593217AFA8BC00558048 /* FSStringDefinition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSStringDefinition.h; sourceTree = "<group>"; };
 		68E1593C17AFAAA200558048 /* FSNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSNavigationController.h; sourceTree = "<group>"; };
@@ -167,6 +186,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6871998217B0662200382CDD /* HMSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				6871998317B0662200382CDD /* HMSegmentedControl.h */,
+				6871998417B0662200382CDD /* HMSegmentedControl.m */,
+			);
+			name = HMSegmentedControl;
+			path = doubanAPI/Libraries/HMSegmentedControl;
+			sourceTree = "<group>";
+		};
+		6871998617B07B0600382CDD /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6871998A17B07C3B00382CDD /* RTWSShangGoG0v1-Bold.otf */,
+				6871998B17B07C3B00382CDD /* RTWSShangGoG0v1-Regular.otf */,
+				6871998C17B07C3B00382CDD /* RTWSShangYaG0v1-Regular.otf */,
+			);
+			name = fonts;
+			sourceTree = "<group>";
+		};
 		68E158D317AFA39C00558048 = {
 			isa = PBXGroup;
 			children = (
@@ -212,8 +251,14 @@
 				68E158F717AFA39C00558048 /* MainStoryboard.storyboard */,
 				68E158FA17AFA39C00558048 /* FSViewController.h */,
 				68E158FB17AFA39C00558048 /* FSViewController.m */,
+				6871999417B0891B00382CDD /* FSStarCoverView.h */,
+				6871999517B0891B00382CDD /* FSStarCoverView.m */,
 				68E1594717AFABD300558048 /* FSResultViewController.h */,
 				68E1594817AFABD300558048 /* FSResultViewController.m */,
+				6871997C17AFFE4900382CDD /* FSBookDetailsViewController.h */,
+				6871997D17AFFE4900382CDD /* FSBookDetailsViewController.m */,
+				6871997F17B000F800382CDD /* FSDetailsViewController.h */,
+				6871998017B000F800382CDD /* FSDetailsViewController.m */,
 				68E158E617AFA39C00558048 /* Supporting Files */,
 			);
 			path = doubanAPI;
@@ -236,8 +281,11 @@
 		68E1590217AFA44C00558048 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6871998617B07B0600382CDD /* fonts */,
 				68E1594D17AFBBFC00558048 /* defaultImage.png */,
 				68E1594E17AFBBFC00558048 /* defaultImage@2x.png */,
+				6871999017B0869200382CDD /* stars.png */,
+				6871999117B0869200382CDD /* stars@2x.png */,
 				68E1594317AFAAF000558048 /* navigationBackButton.png */,
 				68E1594417AFAAF000558048 /* navigationBackButton@2x.png */,
 				68E1590317AFA4A700558048 /* logo.png */,
@@ -249,11 +297,11 @@
 		68E1590D17AFA71D00558048 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				6871998217B0662200382CDD /* HMSegmentedControl */,
 				68E1595117AFBD0200558048 /* SDWebImage */,
 				68E1593B17AFAAA100558048 /* FSNavigationController */,
 				68E1593E17AFAAA200558048 /* MBProgressHUD */,
 				68E1590E17AFA76100558048 /* AFNetworking */,
-				68E1592217AFA76200558048 /* JSONKit */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -283,16 +331,6 @@
 			);
 			name = AFNetworking;
 			path = doubanAPI/Libraries/AFNetworking;
-			sourceTree = "<group>";
-		};
-		68E1592217AFA76200558048 /* JSONKit */ = {
-			isa = PBXGroup;
-			children = (
-				68E1592317AFA76200558048 /* JSONKit.h */,
-				68E1592417AFA76200558048 /* JSONKit.m */,
-			);
-			name = JSONKit;
-			path = doubanAPI/Libraries/JSONKit;
 			sourceTree = "<group>";
 		};
 		68E1593B17AFAAA100558048 /* FSNavigationController */ = {
@@ -417,6 +455,11 @@
 				68E1594617AFAAF000558048 /* navigationBackButton@2x.png in Resources */,
 				68E1594F17AFBBFC00558048 /* defaultImage.png in Resources */,
 				68E1595017AFBBFC00558048 /* defaultImage@2x.png in Resources */,
+				6871998D17B07C3B00382CDD /* RTWSShangGoG0v1-Bold.otf in Resources */,
+				6871998E17B07C3B00382CDD /* RTWSShangGoG0v1-Regular.otf in Resources */,
+				6871998F17B07C3B00382CDD /* RTWSShangYaG0v1-Regular.otf in Resources */,
+				6871999217B0869200382CDD /* stars.png in Resources */,
+				6871999317B0869200382CDD /* stars@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,7 +484,6 @@
 				68E1592B17AFA76200558048 /* AFURLConnectionOperation.m in Sources */,
 				68E1592C17AFA76200558048 /* AFXMLRequestOperation.m in Sources */,
 				68E1592D17AFA76200558048 /* UIImageView+AFNetworking.m in Sources */,
-				68E1592E17AFA76200558048 /* JSONKit.m in Sources */,
 				68E1594117AFAAA200558048 /* FSNavigationController.m in Sources */,
 				68E1594217AFAAA200558048 /* MBProgressHUD.m in Sources */,
 				68E1594917AFABD300558048 /* FSResultViewController.m in Sources */,
@@ -460,6 +502,10 @@
 				68E1597A17AFBD0300558048 /* UIImage+MultiFormat.m in Sources */,
 				68E1597B17AFBD0300558048 /* UIImage+WebP.m in Sources */,
 				68E1597C17AFBD0300558048 /* UIImageView+WebCache.m in Sources */,
+				6871997E17AFFE4900382CDD /* FSBookDetailsViewController.m in Sources */,
+				6871998117B000F800382CDD /* FSDetailsViewController.m in Sources */,
+				6871998517B0662200382CDD /* HMSegmentedControl.m in Sources */,
+				6871999617B0891B00382CDD /* FSStarCoverView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -584,6 +630,7 @@
 				68E1590117AFA39D00558048 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
