@@ -48,14 +48,13 @@
     //segement control
     self.segementController = [[HMSegmentedControl alloc] initWithFrame:CGRectMake(0, 250, 320, 50)];
     [self.segementController setSectionTitles:@[@"介 绍", @"资 料", @"评 价"]];
-    [self.segementController setSelectedSegmentIndex:1];
+    [self.segementController setSelectedSegmentIndex:0];
     [self.segementController setBackgroundColor:[UIColor colorWithRed:0.7 green:0.7 blue:0.7 alpha:1]];
     [self.segementController setTextColor:[UIColor whiteColor]];
     [self.segementController setSelectedTextColor:[UIColor colorWithRed:0.1 green:0.1 blue:0.1 alpha:1]];
     [self.segementController setSelectionIndicatorColor:[UIColor colorWithRed:0.3 green:0.3 blue:0.3 alpha:1]];
     [self.segementController setSelectionStyle:HMSegmentedControlSelectionStyleBox];
     [self.segementController setSelectionLocation:HMSegmentedControlSelectionLocationUp];
-    [self.segementController setTag:3];
     
     __weak typeof(self) weakSelf = self;
     [self.segementController setIndexChangeBlock:^(NSInteger index) {
@@ -69,7 +68,7 @@
     [self.scrollView setPagingEnabled:YES];
     [self.scrollView setShowsHorizontalScrollIndicator:NO];
     [self.scrollView setContentSize:CGSizeMake(960, [FSToolBox getApplicationFrameSize].height-300)];
-    [self.scrollView scrollRectToVisible:CGRectMake(320, 0, 320, [FSToolBox getApplicationFrameSize].height-300) animated:NO];
+    [self.scrollView scrollRectToVisible:CGRectMake(0, 0, 320, [FSToolBox getApplicationFrameSize].height-300) animated:NO];
     self.scrollView.backgroundColor = [UIColor lightGrayColor];
     self.scrollView.scrollEnabled = NO;
     [self.scrollView setDelegate:self];

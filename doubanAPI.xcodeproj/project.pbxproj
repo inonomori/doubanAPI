@@ -16,6 +16,8 @@
 		6871999217B0869200382CDD /* stars.png in Resources */ = {isa = PBXBuildFile; fileRef = 6871999017B0869200382CDD /* stars.png */; };
 		6871999317B0869200382CDD /* stars@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6871999117B0869200382CDD /* stars@2x.png */; };
 		6871999617B0891B00382CDD /* FSStarCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6871999517B0891B00382CDD /* FSStarCoverView.m */; };
+		6871999917B097AF00382CDD /* FSMovieDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6871999817B097AF00382CDD /* FSMovieDetailsViewController.m */; };
+		6871999C17B09FD800382CDD /* FSMusicDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6871999B17B09FD800382CDD /* FSMusicDetailsViewController.m */; };
 		68E158E017AFA39C00558048 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E158DF17AFA39C00558048 /* UIKit.framework */; };
 		68E158E217AFA39C00558048 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E158E117AFA39C00558048 /* Foundation.framework */; };
 		68E158E417AFA39C00558048 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E158E317AFA39C00558048 /* CoreGraphics.framework */; };
@@ -81,6 +83,10 @@
 		6871999117B0869200382CDD /* stars@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "stars@2x.png"; path = "doubanAPI/Resources/stars@2x.png"; sourceTree = "<group>"; };
 		6871999417B0891B00382CDD /* FSStarCoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSStarCoverView.h; sourceTree = "<group>"; };
 		6871999517B0891B00382CDD /* FSStarCoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSStarCoverView.m; sourceTree = "<group>"; };
+		6871999717B097AF00382CDD /* FSMovieDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMovieDetailsViewController.h; sourceTree = "<group>"; };
+		6871999817B097AF00382CDD /* FSMovieDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSMovieDetailsViewController.m; sourceTree = "<group>"; };
+		6871999A17B09FD800382CDD /* FSMusicDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMusicDetailsViewController.h; sourceTree = "<group>"; };
+		6871999B17B09FD800382CDD /* FSMusicDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSMusicDetailsViewController.m; sourceTree = "<group>"; };
 		68E158DC17AFA39C00558048 /* doubanAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = doubanAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68E158DF17AFA39C00558048 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		68E158E117AFA39C00558048 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -257,6 +263,10 @@
 				68E1594817AFABD300558048 /* FSResultViewController.m */,
 				6871997C17AFFE4900382CDD /* FSBookDetailsViewController.h */,
 				6871997D17AFFE4900382CDD /* FSBookDetailsViewController.m */,
+				6871999717B097AF00382CDD /* FSMovieDetailsViewController.h */,
+				6871999817B097AF00382CDD /* FSMovieDetailsViewController.m */,
+				6871999A17B09FD800382CDD /* FSMusicDetailsViewController.h */,
+				6871999B17B09FD800382CDD /* FSMusicDetailsViewController.m */,
 				6871997F17B000F800382CDD /* FSDetailsViewController.h */,
 				6871998017B000F800382CDD /* FSDetailsViewController.m */,
 				68E158E617AFA39C00558048 /* Supporting Files */,
@@ -506,6 +516,8 @@
 				6871998117B000F800382CDD /* FSDetailsViewController.m in Sources */,
 				6871998517B0662200382CDD /* HMSegmentedControl.m in Sources */,
 				6871999617B0891B00382CDD /* FSStarCoverView.m in Sources */,
+				6871999917B097AF00382CDD /* FSMovieDetailsViewController.m in Sources */,
+				6871999C17B09FD800382CDD /* FSMusicDetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

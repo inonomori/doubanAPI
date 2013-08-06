@@ -164,8 +164,12 @@
             [self performSegueWithIdentifier:@"bookDetailsSegue" sender:self];
             break;
         case 1: //movies
+            self.passResultDictionary = self.movieResultArray[indexPath.row];
+            [self performSegueWithIdentifier:@"movieDetailsSegue" sender:self];
             break;
         case 2: //musics
+            self.passResultDictionary = self.musicResultArray[indexPath.row];
+            [self performSegueWithIdentifier:@"musicDetailsSegue" sender:self];
             break;
         default:
             break;
